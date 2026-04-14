@@ -1,0 +1,22 @@
+﻿# TAIL
+- type: marking
+  id: SnakeLargeTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian, SlimePerson, IPC]
+  sprites:
+  - sprite: _White/Mobs/Customization/reptilian_64x32.rsi
+    state: snake_large
+  - sprite: _White/Mobs/Customization/reptilian_64x32.rsi
+    state: snake_large_overlay
+
+- type: marking
+  id: SnakeLargeTailAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+  - sprite: _White/Mobs/Customization/reptilian_64x32.rsi
+    state: snake_large_wagging
+  - sprite: _White/Mobs/Customization/reptilian_64x32.rsi
+    state: snake_large_wagging_overlay
